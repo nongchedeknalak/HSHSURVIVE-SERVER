@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: hsh-survive-obt2-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: MONGO_DB_NAME
+        value: hshs_obt2
+      - key: ADMIN_KEY
+        generateValue: true
