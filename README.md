@@ -1,4 +1,4 @@
-# Home Sweet Home Survive OBT2 API v2
+# Home Sweet Home Survive OBT2 API v2 BY NONGCHE
 
 API ของ **Home Sweet Home Survive OBT2** แบบใหม่ ใช้ **MongoDB** เป็นฐานข้อมูลจริง
 และพร้อมDeploy บน **Render** (อ่าน `PORT` จาก environment, มี `render.yaml`, graceful shutdown)
