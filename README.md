@@ -1,6 +1,6 @@
 # Home Sweet Home Online API v2 BY NONGCHE
 
-API ของ **Home Sweet Home Survive OBT2** แบบใหม่ ใช้ **MongoDB** เป็นฐานข้อมูลจริง
+API ของ **Home Sweet Home Online** แบบใหม่ ใช้ **MongoDB** เป็นฐานข้อมูลจริง
 และพร้อมDeploy บน **Render** (อ่าน `PORT` จาก environment, มี `render.yaml`, graceful shutdown)
 
 > เปลี่ยนจาก v1 (JSON file storage) มาเป็นโครงสร้างแบบ layered:
