@@ -1,0 +1,38 @@
+{
+  "status": true,
+  "data": {
+    "currency": "coin",
+    "items": [
+      {
+        "itemId": "Item_Rattan_ThunderBlade",
+        "name": "Thunder Blade",
+        "description": "ตัวอย่างสินค้าสำหรับร้าน Custom Shop",
+        "price": 500,
+        "currency": "coin",
+        "enabled": true
+      },
+      {
+        "itemId": "Item_EnergyDrink_ThaiTea",
+        "name": "Thai Tea Energy Drink",
+        "description": "ตัวอย่างสินค้าสำหรับร้าน Custom Shop",
+        "price": 250,
+        "currency": "coin",
+        "enabled": true
+      }
+    ],
+    "bundles": [
+      {
+        "id": "starter_bundle",
+        "name": "Starter Bundle",
+        "description": "ชุดเริ่มต้นตัวอย่าง แก้ไขชื่อ ของ และราคาได้ในไฟล์นี้",
+        "price": 1000,
+        "currency": "coin",
+        "enabled": true,
+        "items": [
+          { "itemId": "Item_Rattan_ThunderBlade", "quantity": 1 },
+          { "itemId": "Item_EnergyDrink_ThaiTea", "quantity": 3 }
+        ]
+      }
+    ]
+  }
+}
