@@ -10,7 +10,7 @@ async function main() {
 
   const server = app.listen(config.port, config.host, () => {
     console.log('=================================================');
-    console.log('  Home Sweet Home Survive OBT2 API  v2.0.0');
+    console.log('  Home Sweet Home Online API BY NONGCHE  v1.0.0');
     console.log(`  Listening : http://${config.host}:${config.port}`);
     console.log(`  Driver    : ${db.getDriver()}`);
     console.log('  Prefix    : /api/... and /hshs/api/...');
